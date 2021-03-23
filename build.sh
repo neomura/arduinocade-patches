@@ -2,7 +2,7 @@ set -e
 
 sudo apt install openjdk-8-jre xvfb -y
 
-ls ./submodules/arduino/Arduino/build/linux/work
+ls ./submodules/arduino/Arduino
 
 rm -rf ./build
 

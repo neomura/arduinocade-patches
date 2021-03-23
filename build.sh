@@ -2,6 +2,8 @@ set -e
 
 sudo apt install openjdk-8-jre xvfb -y
 
+chmod +x ./submodules/arduino/Arduino/build/linux/work/arduino
+
 rm -rf ./build
 
 mkdir -p ./build/unpacked-dependencies/avr

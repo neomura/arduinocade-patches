@@ -1,6 +1,6 @@
 set -e
 
-sudo apt install openjdk-8-jre -y
+sudo apt install openjdk-8-jre xvfb -y
 
 rm -rf ./build
 

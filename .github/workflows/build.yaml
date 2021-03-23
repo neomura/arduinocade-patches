@@ -11,10 +11,10 @@ jobs:
     - uses: softprops/action-gh-release@v1
       if: startsWith(github.ref, 'refs/tags/')
       with:
-        files:
-        - build/games/ballblaster/ballblaster.cpp.hex
-        - build/games/jowst/jowst.cpp.hex
-        - build/games/pacman/pacman.cpp.hex
-        - build/games/titan/titan.cpp.hex
+        files: |
+          build/games/ballblaster/ballblaster.cpp.hex
+          build/games/jowst/jowst.cpp.hex
+          build/games/pacman/pacman.cpp.hex
+          build/games/titan/titan.cpp.hex
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

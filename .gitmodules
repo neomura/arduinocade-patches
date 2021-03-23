@@ -1,0 +1,6 @@
+[submodule "submodules/rossumur/Arduinocade"]
+	path = submodules/rossumur/Arduinocade
+	url = https://github.com/rossumur/Arduinocade
+[submodule "submodules/arduino/Arduino"]
+	path = submodules/arduino/Arduino
+	url = https://github.com/arduino/Arduino

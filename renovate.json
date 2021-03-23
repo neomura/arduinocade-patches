@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "automerge": false,
+  "git-submodules": {
+    "enabled": true
+  }
+}

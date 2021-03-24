@@ -21,4 +21,4 @@ You may find that your ATMega328Ps do not function at this clock speed; not all 
 
 ## Changes made by these patches
 
-TODO
+- Audio is mirrored to dual mono.

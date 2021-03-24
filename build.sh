@@ -1,8 +1,10 @@
 set -e
 
-sudo apt install openjdk-8-jre xvfb -y
+sudo apt install openjdk-8-jdk ant xvfb -y
 
-ls ./submodules/arduino/Arduino/build/linux
+cd ./submodules/arduino/Arduino/build
+ant || echo "Expected to fail; enough is built to proceed."
+cd ../../../..
 
 rm -rf ./build
 

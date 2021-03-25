@@ -22,3 +22,4 @@ You may find that your ATMega328Ps do not function at this clock speed; not all 
 ## Changes made by these patches
 
 - Audio is mirrored to dual mono.
+- IR/PS2 controller support is replaced with Neomura pad support.
